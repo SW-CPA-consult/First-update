@@ -1,251 +1,178 @@
 <!DOCTYPE html>
 <html lang="english">
-  <head>
+
+<head>
     <title>Appointment Form</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
 
     <style data-tag="reset-style-sheet">
-      html {
-        line-height: 1.15;
-      }
-      body {
-        margin: 0;
-      }
-      * {
-        box-sizing: border-box;
-        border-width: 0;
-        border-style: solid;
-      }
-      p,
-      li,
-      ul,
-      pre,
-      div,
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6,
-      figure,
-      blockquote,
-      figcaption {
-        margin: 0;
-        padding: 0;
-      }
-      button {
-        background-color: transparent;
-      }
-      button,
-      input,
-      optgroup,
-      select,
-      textarea {
-        font-family: inherit;
-        font-size: 100%;
-        line-height: 1.15;
-        margin: 0;
-      }
-      button,
-      select {
-        text-transform: none;
-      }
-      button,
-      [type="button"],
-      [type="reset"],
-      [type="submit"] {
-        -webkit-appearance: button;
-      }
-      button::-moz-focus-inner,
-      [type="button"]::-moz-focus-inner,
-      [type="reset"]::-moz-focus-inner,
-      [type="submit"]::-moz-focus-inner {
-        border-style: none;
-        padding: 0;
-      }
-      button:-moz-focus,
-      [type="button"]:-moz-focus,
-      [type="reset"]:-moz-focus,
-      [type="submit"]:-moz-focus {
-        outline: 1px dotted ButtonText;
-      }
-      a {
-        color: inherit;
-        text-decoration: inherit;
-      }
-      input {
-        padding: 2px 4px;
-      }
-      img {
-        display: block;
-      }
-      html {
-        scroll-behavior: smooth;
-      }
+        html {
+            line-height: 1.15;
+        }
+        
+        body {
+            margin: 0;
+        }
+        
+        * {
+            box-sizing: border-box;
+            border-width: 0;
+            border-style: solid;
+        }
+        
+        p,
+        li,
+        ul,
+        pre,
+        div,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        figure,
+        blockquote,
+        figcaption {
+            margin: 0;
+            padding: 0;
+        }
+        
+        button {
+            background-color: transparent;
+        }
+        
+        button,
+        input,
+        optgroup,
+        select,
+        textarea {
+            font-family: inherit;
+            font-size: 100%;
+            line-height: 1.15;
+            margin: 0;
+        }
+        
+        button,
+        select {
+            text-transform: none;
+        }
+        
+        button,
+        [type="button"],
+        [type="reset"],
+        [type="submit"] {
+            -webkit-appearance: button;
+        }
+        
+        button::-moz-focus-inner,
+        [type="button"]::-moz-focus-inner,
+        [type="reset"]::-moz-focus-inner,
+        [type="submit"]::-moz-focus-inner {
+            border-style: none;
+            padding: 0;
+        }
+        
+        button:-moz-focus,
+        [type="button"]:-moz-focus,
+        [type="reset"]:-moz-focus,
+        [type="submit"]:-moz-focus {
+            outline: 1px dotted ButtonText;
+        }
+        
+        a {
+            color: inherit;
+            text-decoration: inherit;
+        }
+        
+        input {
+            padding: 2px 4px;
+        }
+        
+        img {
+            display: block;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
     </style>
     <style data-tag="default-style-sheet">
-      html {
-        font-family: Inter;
-        font-size: 16px;
-      }
-
-      body {
-        font-weight: 400;
-        font-style: normal;
-        text-decoration: none;
-        text-transform: none;
-        letter-spacing: normal;
-        line-height: 1.15;
-        color: var(--dl-color-gray-black);
-        background-color: var(--dl-color-gray-white);
-      }
+        html {
+            font-family: Inter;
+            font-size: 16px;
+        }
+        
+        body {
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            text-transform: none;
+            letter-spacing: normal;
+            line-height: 1.15;
+            color: var(--dl-color-gray-black);
+            background-color: var(--dl-color-gray-white);
+        }
     </style>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-      data-tag="font"
-    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" data-tag="font" />
     <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <div>
-      <link href="./AppointmentForm.css" rel="stylesheet" />
+</head>
 
-      <div class="desktop8-container">
-        <div class="desktop8-desktop8">
-          <img
-            src="public/playground_assets/rectangle48171-ww3e-200h.png"
-            alt="Rectangle48171"
-            class="desktop8-rectangle48"
-          />
-          <span class="desktop8-text"><span>APPOINTMENT FORM</span></span>
-          <span class="desktop8-text02">
+<body>
+    <form>
+        <div>
+            <link href="./AppointmentForm.css" rel="stylesheet" />
+
+            <div class="desktop8-container">
+                <div class="desktop8-desktop8">
+                    <img src="public/playground_assets/rectangle48171-ww3e-200h.png" alt="Rectangle48171" class="desktop8-rectangle48" />
+                    <span class="desktop8-text"><span>APPOINTMENT FORM</span></span>
+                    <span class="desktop8-text02">
             <span>
               TO schedule an appointment, Please fill the information below
             </span>
-          </span>
-          <span class="desktop8-text04"><span>Contact Information</span></span>
-          <span class="desktop8-text06"><span>Contact Information</span></span>
-          <img
-            src="public/playground_assets/rectangle49176-tevh-200h.png"
-            alt="Rectangle49176"
-            class="desktop8-rectangle49"
-          />
-          <img
-            src="public/playground_assets/rectangle50177-8ab-200h.png"
-            alt="Rectangle50177"
-            class="desktop8-rectangle50"
-          />
-          <img
-            src="public/playground_assets/rectangle52178-vdpr-200h.png"
-            alt="Rectangle52178"
-            class="desktop8-rectangle52"
-          />
-          <span class="desktop8-text08"><span>First name</span></span>
-          <span class="desktop8-text10"><span>Last name</span></span>
-          <img
-            src="public/playground_assets/rectangle51181-pa0q-200h.png"
-            alt="Rectangle51181"
-            class="desktop8-rectangle51"
-          />
-          <span class="desktop8-text12"><span>Phone Number</span></span>
-          <span class="desktop8-text14"><span>Email</span></span>
-          <span class="desktop8-text16">
+                    </span>
+                    <span class="desktop8-text04"><span>Contact Information</span></span>
+                    <span class="desktop8-text06"><span>Contact Information</span></span>
+                    <img src="public/playground_assets/rectangle49176-tevh-200h.png" alt="Rectangle49176" class="desktop8-rectangle49" />
+                    <img src="public/playground_assets/rectangle50177-8ab-200h.png" alt="Rectangle50177" class="desktop8-rectangle50" />
+                    <img src="public/playground_assets/rectangle52178-vdpr-200h.png" alt="Rectangle52178" class="desktop8-rectangle52" />
+                    <span class="desktop8-text08"><span>First name</span></span>
+                    <input type="text" id="fname" required="" class="desktop8-rectangle49" />
+                    <span class="desktop8-text10"><span>Last name</span></span>
+                    <input type="text" id="lname" required="" class="desktop8-rectangle50" />
+                    <img src="public/playground_assets/rectangle51181-pa0q-200h.png" alt="Rectangle51181" class="desktop8-rectangle51" />
+                    <span class="desktop8-text12"><span>Phone Number</span></span>
+                    <input type="tel" id="tel" required="" class="desktop8-rectangle51" />
+                    <span class="desktop8-text14"><span>Email</span></span>
+                    <input type="email" id="mail" required="" class="desktop8-rectangle52" />
+                    <span class="desktop8-text16">
             <span>Please enter a valid phone number</span>
-          </span>
-          <span class="desktop8-text18"><span>consult@example.com</span></span>
-          <img
-            src="public/playground_assets/line1186-vun.svg"
-            alt="Line1186"
-            class="desktop8-line1"
-          />
-          <span class="desktop8-text20"><span>Appointment Details</span></span>
-          <span class="desktop8-text22"><span>Type of services</span></span>
-          <img
-            src="public/playground_assets/rectangle53189-33r-200h.png"
-            alt="Rectangle53189"
-            class="desktop8-rectangle53"
-          />
-          <span class="desktop8-text24"><span>Please select</span></span>
-          <img
-            src="public/playground_assets/icbaselinearrowdropdown191-nete.svg"
-            alt="icbaselinearrowdropdown191"
-            class="desktop8-icbaselinearrowdropdown"
-          />
-          <img
-            src="public/playground_assets/rectangle54193-3qce-200h.png"
-            alt="Rectangle54193"
-            class="desktop8-rectangle54"
-          />
-          <div class="desktop8-icbaselinearrowdropdown1"></div>
-          <img
-            src="public/playground_assets/vector195-s4jd.svg"
-            alt="Vector195"
-            class="desktop8-vector"
-          />
-          <span class="desktop8-text26"><span>Time</span></span>
-          <span class="desktop8-text28"><span>Please select</span></span>
-          <img
-            src="public/playground_assets/rectangle55198-0j2w-200h.png"
-            alt="Rectangle55198"
-            class="desktop8-rectangle55"
-          />
-          <div class="desktop8-icbaselinearrowdropdown2"></div>
-          <span class="desktop8-text30"><span>Date</span></span>
-          <img
-            src="public/playground_assets/rectangle561101-lii-200h.png"
-            alt="Rectangle561101"
-            class="desktop8-rectangle56"
-          />
-          <img
-            src="public/playground_assets/rectangle571102-kqk-200h.png"
-            alt="Rectangle571102"
-            class="desktop8-rectangle57"
-          />
-          <img
-            src="public/playground_assets/rectangle581103-q6h-200h.png"
-            alt="Rectangle581103"
-            class="desktop8-rectangle58"
-          />
-          <img
-            src="public/playground_assets/rectangle601104-f9u-200h.png"
-            alt="Rectangle601104"
-            class="desktop8-rectangle60"
-          />
-          <span class="desktop8-text32"><span>Cancel</span></span>
-          <img
-            src="public/playground_assets/rectangle591106-klo-200h.png"
-            alt="Rectangle591106"
-            class="desktop8-rectangle59"
-          />
-          <span class="desktop8-text34"><span>Day</span></span>
-          <span class="desktop8-text36"><span>Month</span></span>
-          <span class="desktop8-text38"><span>Year</span></span>
-          <img
-            src="public/playground_assets/vector1110-oq4r.svg"
-            alt="Vector1110"
-            class="desktop8-vector1"
-          />
-          <img
-            src="public/playground_assets/vector1111-ywn.svg"
-            alt="Vector1111"
-            class="desktop8-vector2"
-          />
-          <img
-            src="public/playground_assets/vector1112-706s.svg"
-            alt="Vector1112"
-            class="desktop8-vector3"
-          />
-          <span class="desktop8-text40"><span>submit</span></span>
-          <img
-            src="public/playground_assets/vector1114-jyoo.svg"
-            alt="Vector1114"
-            class="desktop8-vector4"
-          />
+                    </span>
+                    <span class="desktop8-text18"><span>consult@example.com</span></span>
+                    <img src="public/playground_assets/line1186-vun.svg" alt="Line1186" class="desktop8-line1" />
+                    <span class="desktop8-text20"><span>Appointment Details</span></span>
+                    <span class="desktop8-text22"><span>Type of service(s)</span></span>
+                    <input type="text" id="service" required="" class="desktop8-rectangle53">
+                    <img src="public/playground_assets/rectangle54193-3qce-200h.png" alt="Rectangle54193" class="desktop8-rectangle54" />
+                    <div class="desktop8-icbaselinearrowdropdown1"></div>
+                    <img src="public/playground_assets/vector195-s4jd.svg" alt="Vector195" class="desktop8-vector" />
+                    <span class="desktop8-text26"><span>Time(GMT)</span></span>
+                    <span class="desktop8-text28"><span>Please select</span></span>
+                    <img src="public/playground_assets/rectangle55198-0j2w-200h.png" alt="Rectangle55198" class="desktop8-rectangle55" />
+                    <input type="time" id="time" required="" placeholder="Time of appointment" class="desktop8-rectangle54" />
+                    <span class="desktop8-text30"><span>Date</span></span>
+                    <input type="date" id="date" required="" class="desktop8-rectangle55" />
+                    <img src="public/playground_assets/rectangle581103-q6h-200h.png" alt="Rectangle581103" class="desktop8-rectangle58" />
+                    <img src="public/playground_assets/rectangle601104-f9u-200h.png" alt="Rectangle601104" class="desktop8-rectangle60" />
+                    <a onclick="alert('Your request has been cancelled!')" href="Home.html" class="desktop8-text32"><span>Cancel</span></a>
+                    <input type="submit" id="submit" href="AppreciationPage.html" class="desktop8-text40"><span>submit</span></input>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </body>
+    </form>
+</body>
+
 </html>
